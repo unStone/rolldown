@@ -84,3 +84,11 @@ Licenses of these projects are listed in [THIRD-PARTY-LICENSE](/THIRD-PARTY-LICE
 
 [badge-binary-size-windows]: [https://img.shields.io/npm/unpacked-size/%40rolldown%2Fbinding-win32-x64-msvc/latest]
 [badge-binary-size-macos]: [https://img.shields.io/npm/unpacked-size/%40rolldown%2Fbinding-darwin-arm64/latest]
+
+
+# 如何debugger代码
+1. 打开  `Javascript Debug Termial`
+2. 在需要运行node代码的某处打断点，然后在 `Javascript Debug Termial` 中运行node代码
+3. 点击`Run and Debug`，点击运行 `Attach:Rust`
+4. 选择运行的node进程
+5. 开始愉快的调试了
